@@ -1,0 +1,32 @@
+{
+    "files.associations": {
+        "system_error": "cpp",
+        "atomic": "cpp",
+        "ios": "cpp",
+        "list": "cpp",
+        "vector": "cpp",
+        "xhash": "cpp",
+        "xiosbase": "cpp",
+        "xstring": "cpp",
+        "xtree": "cpp",
+        "array": "cpp",
+        "initializer_list": "cpp",
+        "random": "cpp",
+        "span": "cpp",
+        "utility": "cpp",
+        "xutility": "cpp",
+        "format": "cpp",
+        "charconv": "cpp",
+        "xmemory": "cpp",
+        "xlocmes": "cpp",
+        "map": "cpp",
+        "unordered_map": "cpp",
+        "memory": "cpp",
+        "xlocinfo": "cpp",
+        "compare": "cpp",
+        "functional": "cpp",
+        "tuple": "cpp",
+        "type_traits": "cpp",
+        "xtr1common": "cpp"
+    }
+}

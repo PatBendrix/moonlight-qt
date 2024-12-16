@@ -284,8 +284,10 @@ ApplicationWindow {
 
             NavigableToolButton {
                 id: discordButton
-                visible: SystemProperties.hasBrowser &&
-                         qmltypeof(stackView.currentItem, "SettingsView")
+                visible: false
+
+                // visible: SystemProperties.hasBrowser &&
+                        // qmltypeof(stackView.currentItem, "SettingsView")
 
                 iconSource: "qrc:/res/discord.svg"
 
@@ -368,7 +370,9 @@ ApplicationWindow {
 
             NavigableToolButton {
                 id: helpButton
-                visible: SystemProperties.hasBrowser
+                visible: false
+
+                // visible: SystemProperties.hasBrowser
 
                 iconSource: "qrc:/res/question_mark.svg"
 
